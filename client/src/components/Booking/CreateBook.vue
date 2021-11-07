@@ -89,7 +89,7 @@ export default {
       try {
         await BookService.post(this.book);
         this.$router.push({
-          name: "books",
+          name: "reserve",
         });
       } catch (error) {
         console.log(error);

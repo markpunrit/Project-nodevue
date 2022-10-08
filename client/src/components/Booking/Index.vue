@@ -8,7 +8,7 @@
         <back-logout />
       
       <div v-if="books.length">
-        <h1>การจองคอร์สเรียนทั้งหมด {{ books.length }}</h1>
+        <h1>จองคอร์สเรียนทั้งหมด {{ books.length }}</h1>
           <div class="w3-row-padding-10">
             <div v-for="book in books" v-bind:key="book.id">
             <div class="w3-third w3-container">
